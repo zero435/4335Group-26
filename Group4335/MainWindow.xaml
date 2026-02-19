@@ -78,7 +78,11 @@
                         Margin="5"
                         Click="Button1_Click"/>
 
-			</Grid>
+                <Button Content="Информация об авторе" 
+				Width="150" Height="30" 
+				Click="Button_Click" Margin="311,27,339,26" Grid.RowSpan="3" Grid.Row="1"/>
+
+            </Grid>
 		</Grid>
 	</Grid>
 </Window>

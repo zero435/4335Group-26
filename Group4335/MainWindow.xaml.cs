@@ -12,5 +12,11 @@ namespace Group4335
             Info infow = new Info();
             infow.Show();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var infoWindow = new _4335_Gubaev(); 
+            infoWindow.ShowDialog();
+        }
     }
 }
